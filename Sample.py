@@ -4,7 +4,7 @@ from pyspark.sql import SparkSession
  
 file_path = f"C:/Users/manishak/Downloads/11Jul2023.xlsx"
 df_content = pd.read_excel(file_path)
-df1 = df_content
+df2 = df_content
 
 # Create PySpark SparkSession
 spark = SparkSession.builder \
