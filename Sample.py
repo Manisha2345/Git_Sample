@@ -18,5 +18,18 @@ sparkDF.show()
 
 
 
+def merge_the_tools(string, k):
+    # your code goes here
+    list_of_strings = [list(set(string[i:i+k])) for i in range(0,len(string),k)]
+    
+    print(list_of_strings)   
+    # AABCAAADA
+
+# if _name_ == '__main__':
+    string, k = 'AABCAAADA', int(3)
+    merge_the_tools(string, k)
+# =
+
+
 
 
